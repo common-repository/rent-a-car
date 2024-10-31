@@ -1,0 +1,48 @@
+div.cr_hd{
+	float:left;
+	width:100%;
+}
+
+div#cr_hd_img{
+	background-repeat:no-repeat;
+	background-position:left;
+	width:85px;
+	height:62px;
+	float:left;
+}
+div.cr_sales_img{
+	background-image: url(../images/car-rental-sold-icon.png);
+}
+div.cr_car_img{
+	background-image: url(../images/car-rental-icon.png);
+}
+div.cr_settings_img{
+	background-image: url(../images/settings.png);
+}
+
+div.cr_sales_h2{
+	float:left;
+	margin-top:5px;
+}
+div.cr_action{
+	width:98%; 
+	text-align:right;
+	margin-right:2%;
+	margin-bottom:10px;
+}
+.tabber{display:none;}
+
+div.cr_settings_holder{
+	background-color: #FFFFFF;
+    border-color: #DDDDDD;
+	padding: 7px 5px 0;
+	margin-top:30px;
+}
+
+.curved{
+	_position:fixed; /* hack for internet explorer 6*/
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	 -khtml-border-radius:5px;
+	  border-radius:5px;
+}
